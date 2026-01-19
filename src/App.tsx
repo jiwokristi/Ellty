@@ -96,7 +96,7 @@ const MenuItem = ({ label, checked, onToggle }: MenuItemProps) => {
       }}
       className="group flex items-center justify-between cursor-pointer w-92.5 h-10.5 py-2 pl-5.5 pr-3.75"
     >
-      <span>{label}</span>
+      <span className="text-body">{label}</span>
 
       <div className="flex items-center justify-center w-8.75">
         <Checkbox checked={checked} tabIndex={-1} onClick={onToggle} />
