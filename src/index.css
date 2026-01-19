@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@theme {
+  /** ----- COLOR PALETTE ----- */
+  /* #FFCE22 */
+  --color-primary: oklch(0.8698 0.1717 90.55);
+  /* #FFD84D */
+  --btn-primary-hover: oklch(0.8916 0.1569 92.99);
+  /* #1F2128 */
+  --color-black: oklch(0.2487 0.0136 272.79);
+  /* #2469F6 */
+  --color-blue: oklch(0.5665 0.2222 262.3);
+  /* #5087F8 */
+  --checkbox-blue-active: oklch(0.6427 0.1786 262.86);
+  /* #EEEEEE */
+  --color-grey-50: oklch(0.9491 0 0);
+  /* #E3E3E3 */
+  --color-grey-100: oklch(0.9158 0 0);
+  /* #CDCDCD */
+  --color-grey-200: oklch(0.8483 0 0);
+  /* #BDBDBD */
+  --color-grey-300: oklch(0.7984 0 0);
+  /* #878787 */
+  --color-grey-400: oklch(0.6234 0 0);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply m-0 p-0 box-border;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
