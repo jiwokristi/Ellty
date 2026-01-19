@@ -11,7 +11,7 @@
   /* #2469F6 */
   --color-blue: oklch(0.5665 0.2222 262.3);
   /* #5087F8 */
-  --checkbox-blue-active: oklch(0.6427 0.1786 262.86);
+  --checkbox-blue-hover: oklch(0.6427 0.1786 262.86);
   /* #EEEEEE */
   --color-grey-50: oklch(0.9491 0 0);
   /* #E3E3E3 */

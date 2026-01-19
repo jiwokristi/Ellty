@@ -51,6 +51,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         className={cn(buttonVariants({ intent, size, disabled }), className)}
         disabled={!!disabled}
+        aria-disabled={!!disabled}
         {...props}
       />
     );
