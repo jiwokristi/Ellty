@@ -22,6 +22,10 @@
   --color-grey-300: oklch(0.7984 0 0);
   /* #878787 */
   --color-grey-400: oklch(0.6234 0 0);
+
+  /** ----- SHADOW SYSTEM ----- */
+  --shadow-card-default:
+    0px 8px 15px rgba(20, 20, 20, 0.12), 0px 0px 4px rgba(20, 20, 20, 0.1);
 }
 
 @layer base {
