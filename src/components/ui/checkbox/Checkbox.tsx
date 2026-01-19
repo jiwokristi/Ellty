@@ -24,6 +24,14 @@ const checkboxVariants = cva(
           'active:ring-[3px]',
           'active:ring-blue/10',
           'active:opacity-100',
+
+          'group-hover:opacity-100',
+          'group-hover:border-grey-300',
+          'group-hover:[&_.checkWhite_path]:stroke-grey-100',
+          'group-active:[&_.checkWhite_path]:stroke-grey-400',
+          'group-active:ring-[3px]',
+          'group-active:ring-blue/10',
+          'group-active:opacity-100',
         ],
       },
       checked: {
@@ -37,6 +45,12 @@ const checkboxVariants = cva(
           'active:[&_.checkWhite_path]:stroke-white',
           'active:bg-blue',
           'active:border-blue',
+
+          'group-hover:bg-(--checkbox-blue-hover)',
+          'group-hover:border-(--checkbox-blue-hover)',
+          'group-active:[&_.checkWhite_path]:stroke-white',
+          'group-active:bg-blue',
+          'group-active:border-blue',
         ],
       },
       disabled: {

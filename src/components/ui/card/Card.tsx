@@ -4,7 +4,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '../../../utils/cn';
 
 const cardVariants = cva(
-  'relative rounded-md p-2.5 border border-grey-50 shadow-(--shadow-card-default)',
+  'relative rounded-md py-2.5 border border-grey-50 shadow-(--shadow-card-default)',
   {
     variants: {
       variant: {
