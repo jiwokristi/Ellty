@@ -26,6 +26,9 @@
   /** ----- SHADOW SYSTEM ----- */
   --shadow-card-default:
     0px 8px 15px rgba(20, 20, 20, 0.12), 0px 0px 4px rgba(20, 20, 20, 0.1);
+
+  /** ----- TYPOGRAPHY SYSTEM ----- */
+  --font-display: 'Montserrat', sans-serif;
 }
 
 @layer base {
@@ -36,6 +39,12 @@
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased font-display text-black;
+  }
+}
+
+@layer components {
+  .text-body {
+    @apply text-sm font-normal tracking-normal leading-[18.2px];
   }
 }
